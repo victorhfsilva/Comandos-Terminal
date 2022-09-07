@@ -118,11 +118,23 @@ git reset --soft <commit_ID>
 ### Push
 Adiciona a origem do repositório remoto
 ```
-git remote add <endereço_https_repositório>
+git remote add <nome_repositório_remoto> <endereço_https_repositório>
+```
+Exemplo:
+```
+git remote origin https://github.com/victorhfsilva/Comandos-Terminal
+```
+Deleta repositório remoto
+```
+git remote remove <nome_repositório_remoto>
+```
+Exemplo:
+```
+git remote remove origin
 ```
 Empurra ramo ao repositório remoto
 ```
-git push origin <ramo>
+git push <nome_repositório_remoto> <ramo>
 ```
 Exemplo:
 ```
@@ -131,7 +143,7 @@ git push origin master
 ## Pull
 Puxa um ramo do repositório remoto
 ```
-git pull origin <ramo>
+git pull <nome_repositório_remoto> <ramo>
 ```
 Exemplo:
 ```
