@@ -124,6 +124,10 @@ Exemplo:
 ```
 git remote origin https://github.com/victorhfsilva/Comandos-Terminal
 ```
+Exemplo utilizando Access Token:
+```
+git remote origin https://<token>@github.com/victorhfsilva/Comandos-Terminal.git
+```
 Deleta repositório remoto
 ```
 git remote remove <nome_repositório_remoto>

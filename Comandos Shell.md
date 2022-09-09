@@ -176,6 +176,10 @@ Mostra utilização da memória e SWAP
 ```
 free
 ```
+Mostra informações da distribuição do Linux
+```
+lsb_release -a
+```
 ## Criptografia
 ### Hash
 Obtém um Hash do tipo SHA1
